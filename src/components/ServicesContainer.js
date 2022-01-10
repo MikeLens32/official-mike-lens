@@ -1,12 +1,12 @@
 import React from 'react'
 import ServiceCard from './ServiceCard'
 
-function ServicesContainer({ photogrpahy, videography, addToCart }) {
+function ServicesContainer({ photography, videography, addToCart }) {
 
     return (
         <div style={{border:"flex", flexWrap:"warp"}}>
-            {photogrpahy.map((photograph) => <ServiceCard key={photograph.id} photgraph={photograph}/>)}
-            {videography.map((videograph) => <ServiceCard key={videograph.id} videograph={videograph}/>)}
+            {photography.map((photograph) => <ServiceCard key={photograph.id} media={photograph}/>)}
+            {videography.map((videograph) => <ServiceCard key={videograph.id} media={videograph}/>)}
         </div>
     )
 }
