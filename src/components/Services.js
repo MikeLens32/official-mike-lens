@@ -2,8 +2,6 @@ import ServicesContainer from "./ServicesContainer";
 
 function Services({ photography, videography, addToCart }) {
 
-
-
     return(
         <div>
             <h1>Services</h1>

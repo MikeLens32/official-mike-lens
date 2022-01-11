@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { SliderCentralData } from '../SliderData/SliderCentral'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
-function ImageSliderCentral({ central}) {
+function ImageSliderCentral({ central }) {
 
     const [currentCen, setCurrentCen] = useState(0)
     const length = central.length

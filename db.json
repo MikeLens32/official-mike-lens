@@ -11,6 +11,24 @@
       "who": "Jeff",
       "category": "Indoors",
       "comment": "I love everything!"
+    },
+    {
+      "who": "Mike",
+      "category": "Botanical",
+      "comment": "Beautiful",
+      "id": 2
+    },
+    {
+      "who": "Me",
+      "category": "Outdoor",
+      "comment": "I love out side!",
+      "id": 3
+    },
+    {
+      "who": "Arnold",
+      "category": "Indoor",
+      "comment": "Warm",
+      "id": 4
     }
   ]
 }

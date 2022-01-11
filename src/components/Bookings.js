@@ -7,16 +7,12 @@ function Bookings() {
 
     const [serviceCart, setServiceCart] = useState([])
 
-    const addToCart = (service) => {
-        
-    }
-
     return(
         <div>
             <h1>
                 Bookings
             </h1>
-            <Services photography={Photography} videography={Videography} addToCart={addToCart}/>
+            <Services photography={Photography} videography={Videography} />
             <BookingsForm />
         </div>
     )

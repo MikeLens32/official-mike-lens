@@ -7,10 +7,11 @@ const BookingsForm = () => {
         email: '',
         service: '',
         budget: 0.00,
+        
     })
 
     return(
-        <form >
+        <form action="Mike-Lens:mike.a.dwyer32@gmail.com" method="post" enctype="text/plain">
             <label>Full Name</label>
             <input 
             required type="text"
@@ -28,8 +29,14 @@ const BookingsForm = () => {
             /><br/>
             <label>Budget</label>
             <select required>
-                <option value="Photography">Photogrphay</option>
-                <option value="Videography">Videography</option>
+                <option value="Individual">Individual</option>
+                <option value="Small Group">Small Group</option>
+                <option value="Small Event">Small Event</option>
+                <option value="Large Event">Large Event</option>
+                <option value="Short Promo Video">Short Promo Video</option>
+                <option value="Feature Film">Feature Film</option>
+                <option value="Docu-series">Docu-series</option>
+                <option value="Vloging">Vloging</option>
             </select>
             {/* Create a section for possible date of event/service request */}
             <input 

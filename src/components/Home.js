@@ -1,6 +1,6 @@
 import React from "react";
 import PhotoCategories from './PhotoCategories';
-import HomeCommentary from './HomeCommentary';
+import HomeContainer from './HomeContainer';
 
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
                 Home
             </h1>
             <PhotoCategories />
-            <HomeCommentary />
+            <HomeContainer />
         </div>
     )
 }

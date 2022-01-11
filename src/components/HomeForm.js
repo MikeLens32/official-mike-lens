@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import './HomeCommentary.css'
-// import HomeCommentContainer from './HomeCommentContainer'
+import { useState } from 'react'
 
-function HomeCommentary() {
+const HomeForm = ({ setComment }) => {
 
     const [homeCom, setHomeCom] = useState({
         who: "",
@@ -18,6 +16,7 @@ function HomeCommentary() {
         console.log(homeCom);
     }
     // console.log(handleChange)
+
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -35,7 +34,7 @@ function HomeCommentary() {
                 body: JSON.stringify(homeData)
             })
             .then(r => r.json()) 
-            .then(data => console.log(data))
+            .then(data => setComment(currentComments => [...currentComments, data]))
             .catch(error => console.log(error))
             setHomeCom({
                 who: "",
@@ -49,7 +48,7 @@ function HomeCommentary() {
 
     }
 
-    return(
+    return (
         <div>
             <h1>Mike Lens Wants to Know What Was Your Favorite</h1><br/>
             <form className="HomeCommentaryForm" onSubmit={handleSubmit}>
@@ -86,4 +85,4 @@ function HomeCommentary() {
     )
 }
 
-export default HomeCommentary;
+export default HomeForm

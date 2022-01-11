@@ -24,7 +24,7 @@
         },
         {
           id: 1,
-          service: "Themed Film/Docu-series",
+          service: "Feature Film/Docu-series",
           description: "Interviews, behind the scenes, b-roll, and more. Accomidates documentaries, short series, and etc."
         },
         {
