@@ -1,5 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+import "./NavBar.css"
 
 function NavBar() {
 
@@ -9,43 +10,28 @@ function NavBar() {
     }
 
     return(
-        <div>
+        <div className="NavBar">
+            <img className="Logo" src="/public/images/MIKELENS.png" alt="Logo" />
            <NavLink 
            exact to="/"
-           activeStyle={{
-               fontWeight:"bold",
-               color:"navy"
-           }}
            style={style}
            >
                Home
            </NavLink>
            <NavLink 
            to="/About"
-           activeStyle={{
-               fontWeight:"bold",
-               color:"navy"
-           }}
            style={style}
            >
                About
            </NavLink>
            <NavLink 
            to="/Bookings"
-           activeStyle={{
-               fontWeight:"bold",
-               color:"navy"
-           }}
            style={style}
            >
                Bookings
            </NavLink>
            <NavLink 
            to="/Contact"
-           activeStyle={{
-               fontWeight:"bold",
-               color:"navy"
-           }}
            style={style}
            >
                Contact

@@ -1,6 +1,5 @@
-import React, { useState} from 'react'
+import React, { useState} from 'react';
 import { SliderOutDoorData } from '../SliderData/SliderOutDoorData'
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 
 const ImageSliderOutDoor = ({ outdoor }) => {
 
@@ -14,9 +13,9 @@ const ImageSliderOutDoor = ({ outdoor }) => {
     // console.log(currentImg);
     // I tested out the currentImg on the click for next firstto see if the function worked with the number of images
 
-    const prevSlide = () => {
-        setSurrentImg(currentImg === 0 ? length - 1 : currentImg - 1)
-    }
+    // const prevSlide = () => {
+    //     setSurrentImg(currentImg === 0 ? length - 1 : currentImg - 1)
+    // }
     // If current is equal to zero/back to the original image THEN I want to set the length to be - 1 else I'm setting currentImg to - 1
 
     if(!Array.isArray(outdoor) || outdoor.length <= 0) {
@@ -26,19 +25,19 @@ const ImageSliderOutDoor = ({ outdoor }) => {
 
     return (
         <section className='OutDoor'>
-            <FaArrowAltCircleLeft className='left-previous' onClick={prevSlide}/>
+            <h3 className="Section-Heading">OutDoor</h3>
             {SliderOutDoorData.map((out, index) => {
                 return(
                     <div
-                    className={index === currentImg ? 'outdoor active' : 'outdoors'}
+                    className={index === currentImg ? 'outdoor-active' : 'outdoors'}
                     key={index}
                     >
-                        {index === currentImg && (<img src={window.location.origin + "/images" + out.image} alt={out.alt} className='OutDoor-Image'/>
+                        {index === currentImg && (<img src={window.location.origin + "/images" + out.image} alt={out.alt} className='OutDoor-Image'
+                        onClick={nextSlide}/>
                         )}
                     </div>
                 ) ;
             })}
-            <FaArrowAltCircleRight className='right-next' onClick={nextSlide}/>
         </section>
     )
 }

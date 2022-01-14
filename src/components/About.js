@@ -1,11 +1,13 @@
 import React from "react";
+import "./About.css"
 
 function About() {
     return(
-        <div>
+        <div className="About">
             <h1>
                 The Need to Know
             </h1>
+            <img src="/public/images/_DSC6566.JPG" alt="It's Mike Lens Himself"/>
             <h5>
                 With my deep love for fiction and movies you can say that I was bound to eventually pick a camera at some point. I made communications my major and absolutely loved the world media on almost every level and miniored in nonfiction film production. I picked up writing with my with the never ending revovling dooor of ideas.
 

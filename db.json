@@ -17,18 +17,6 @@
       "category": "Botanical",
       "comment": "Beautiful",
       "id": 2
-    },
-    {
-      "who": "Me",
-      "category": "Outdoor",
-      "comment": "I love out side!",
-      "id": 3
-    },
-    {
-      "who": "Arnold",
-      "category": "Indoor",
-      "comment": "Warm",
-      "id": 4
     }
   ]
 }
