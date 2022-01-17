@@ -10,7 +10,6 @@ import { SliderCentralData } from "./SliderData/SliderCentral";
 function PhotoCategories() {
     return(
         <div>
-            <h1>PhotoCategories</h1>
             <ImageSliderOutDoor outdoor={outdoor}/>
             {/* Passed in outdoor as a prop for a variable to use length function for the array number of images */}
             <ImageSliderIndoor indoor={SliderIndoorData}/>

@@ -1,17 +1,18 @@
-import "./Services.css"
-const ServiceCard = ({ media:{service, description}}) => {
-
-    const style = {
-        border:"solid", 
-        width:"20em", 
-        display:"flex"
-    }
+import "./ServiceCard.css"
+const ServiceCard = ({ media:{service, description, image, alt}}) => {
 
     return (
-        <div className={service} style={style}>
-            <div id="Service-Card">
-                <h3>{service}</h3>
-                <p>{description}</p>
+        <div className="Card-Container" >
+            <div className="Image-Contaner">
+                <img src={image} alt={alt}/>
+            </div>
+            <div className="Card=Content">
+                <div className="Service-Title">
+                    <h3>{service}</h3>
+                </div>
+                <div className="Paragraph">
+                    <p>{description}</p>
+                </div>
             </div>
         </div>
     )

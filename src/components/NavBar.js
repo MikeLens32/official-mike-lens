@@ -1,18 +1,48 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "./NavBar.css"
+import Home from "./Home";
+import About from "./About";
+import Bookings from "./Bookings";
+import Contact from "./Contact";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Navbar, Nav, Container } from "react-bootstrap"
+
 
 function NavBar() {
 
-    const style = {
-        width: "2em",
-        margin: "1em",
-    }
-
     return(
+        <Router>
         <div className="NavBar">
-            <img className="Logo" src="/public/images/MIKELENS.png" alt="Logo" />
-           <NavLink 
+            <Navbar bg="dark" variant="dark">
+            <Container>
+            <Navbar.Brand path="/">
+              <img src="/public/images/White ML Logo.png"/>
+            </Navbar.Brand>
+                <Nav className="me-auto">
+                <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
+                <Nav.Link as={Link} to={"/About"}>About</Nav.Link>
+                <Nav.Link as={Link} to={"/Bookings"}>Bookings</Nav.Link>
+                <Nav.Link as={Link} to={"/Contact"}>Contact</Nav.Link>
+                </Nav>
+            </Container>
+        </Navbar>
+        </div>
+        <div>
+      <Switch >
+        <Route exact path="/About">
+          <About />
+        </Route>
+        <Route exact path="/Bookings">
+          <Bookings />
+        </Route>
+        <Route exact path="/Contact">
+          <Contact />
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+      </Switch>
+        </div>
+           {/* <NavLink 
            exact to="/"
            style={style}
            >
@@ -35,8 +65,8 @@ function NavBar() {
            style={style}
            >
                Contact
-           </NavLink>
-        </div>
+           </NavLink> */}
+        </Router>
     )
 }
 

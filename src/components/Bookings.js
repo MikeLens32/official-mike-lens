@@ -1,5 +1,6 @@
-import BookingsForm from "./BookingsForm";
+import "./Bookings.css"
 import Services from "./Services";
+import BookingsForm from "./BookingsForm";
 import { Photography, Videography } from './ServiceCategories'
 
 function Bookings() {

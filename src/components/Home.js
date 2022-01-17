@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css"
 import PhotoCategories from './PhotoCategories';
 import HomeContainer from './HomeContainer';
 

@@ -1,0 +1,6 @@
+.Service-Container {
+    display:grid;
+    grid-template-columns: repeat(3, minmax(5rem, 22rem));
+    gap: 4rem;
+}
+

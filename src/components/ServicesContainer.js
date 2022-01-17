@@ -1,4 +1,5 @@
 import ServiceCard from './ServiceCard'
+import "./ServiceContainer.css"
 
 function ServicesContainer({ photography, videography }) {
 

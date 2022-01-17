@@ -1,0 +1,11 @@
+.HomeCommentaryForm {
+    margin-left: 25px;
+    padding-left: 25px;
+    margin-bottom: 40px;
+}
+
+label {
+    color: whitesmoke;
+    font-family: serif;
+    margin-bottom: 1rem;
+}

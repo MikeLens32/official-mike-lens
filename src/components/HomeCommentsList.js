@@ -1,17 +1,22 @@
 import React from 'react'
+import "./HomeCommentList.css"
 
 const HomeCommentsList = ({ commentary=[] }) => {
 
     console.log(commentary)
 
     return (
-        <div>
+        <div className="Comment-List">
             {commentary.map((comment) => (
-                <div> 
+                <div > 
+                <div className="User">
                     <h4>{comment.who}</h4>
+                </div>
+                <div className="Commentary">
                     <p>{comment.category}</p>
                     <p>{comment.comment}</p>
-            </div>
+                </div>
+                </div>
             ))}
         </div>
     )

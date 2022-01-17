@@ -1,0 +1,18 @@
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    background-color: whitesmoke;
+    margin-left: 15px;
+    margin-right: 45rem;
+}
+
+p {
+    font-family: serif;
+    color:whitesmoke;
+    margin-left: 15px;
+}
+
+.Comment-List{
+    border:thin;
+    border-color: whitesmoke;
+}

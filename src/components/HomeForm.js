@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import "./HomeForm.css"
 
 const HomeForm = ({ setComment }) => {
 
@@ -49,7 +50,7 @@ const HomeForm = ({ setComment }) => {
     }
 
     return (
-        <div>
+        <div className="Home-Form">
             <h1>Mike Lens Wants to Know What Was Your Favorite</h1><br/>
             <form className="HomeCommentaryForm" onSubmit={handleSubmit}>
             <label>Who's Speaking</label>
