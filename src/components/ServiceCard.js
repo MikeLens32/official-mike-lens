@@ -1,4 +1,5 @@
 import "./ServiceCard.css"
+
 const ServiceCard = ({ media:{service, description, image, alt}}) => {
 
     return (
