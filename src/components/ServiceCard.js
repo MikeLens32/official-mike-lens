@@ -1,6 +1,8 @@
 import "./ServiceCard.css"
 
-const ServiceCard = ({ media:{service, description, image, alt}}) => {
+const ServiceCard = ({ media }) => {
+
+    const {service, description, image, alt} = media
 
     return (
         <div className="Card-Container" >
