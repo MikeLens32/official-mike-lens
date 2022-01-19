@@ -1,12 +1,10 @@
 import "./ServiceCard.css"
 
-const ServiceCard = ({ media }) => {
-
-    const {service, description, image, alt} = media
+const ServiceCard = ({ media:{service, description, image, alt}}) => {
 
     return (
         <div className="Card-Container" >
-            <div className="Image-Contaner">
+            <div className="Image-Container">
                 <img src={image} alt={alt}/>
             </div>
             <div className="Card=Content">

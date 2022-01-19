@@ -8,8 +8,16 @@
     align-items: center;
 }
 
-.OutDoor-Image, .Indoor-Image, .Central-Image, .Botanical-Image {
+.OutDoor-Image, .Indoor-Image, .Central-Image {
     width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Botanical-Image {
+    width: 950px;
     height: 600px;
     border-radius: 10px;
     align-items: center;
@@ -27,3 +35,16 @@
     transform: scale(1.08);
 }
 
+h3 {
+    justify-content: center;
+    margin-right: 7vh;
+    color:whitesmoke;
+    font-weight: bold;
+    font-family: Georgia;
+}
+
+.Welcome {
+    font-family: serif;
+    margin-left: 30vh;
+    margin-right: 30vh;
+}

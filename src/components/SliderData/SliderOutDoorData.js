@@ -4,11 +4,11 @@ export const SliderOutDoorData = [
         alt: 'Outdoor Image 1'
     },
     {
-        image: '/A_17.jpg',
+        image: '/A_5.jpg',
         alt: 'Outdoor Image 2'
     },
     {
-        image: '/DSC00344.jpg',
+        image: '/A_18.jpg',
         alt: 'Outdoor Image 3'
     },
     {
@@ -20,7 +20,7 @@ export const SliderOutDoorData = [
         alt: 'Outdoor Image 5'
     },
     {
-        image: '/DSC00567.jpg',
+        image: '/DSC00878.jpg',
         alt: 'Outdoor Image 6'
     },
     {
@@ -28,19 +28,11 @@ export const SliderOutDoorData = [
         alt: 'Outdoor Image 7'
     },
     {
-        image: '/DSC00627.jpg',
+        image: '/DSC07547.jpg',
         alt: 'Outdoor Image 8'
     },
     {
         image: '/DSC05228.jpg',
         alt: 'Outdoor Image 9'
-    },
-    {
-        image: '/DSC05238.jpg',
-        alt: 'Outdoor Image 10'
-    },
-    {
-        image: '/DSC05246.jpg',
-        alt: 'Outdoor Image 11'
     }
 ]

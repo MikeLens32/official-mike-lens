@@ -59,14 +59,15 @@ function Contact() {
             <br/>
             <label>Services</label>
             <br/>
-            <textarea
-            className="Text-Field" 
+            <textarea 
             cols="80"
             rows="5"
             required type="text"
             name={"comment" || contactInfo.comment}
             onChange={handleComment}
             value={contactInfo.comment}/>
+            <br/>
+            <input className="Text-Field" type="submit" value="Create Request"/>
         </form>
         </div>
     )

@@ -1,10 +1,10 @@
 const SliderIndoorData = [
     {
-        image:"../images/GV_29.jpg",
+        image:"../images/DSC01816.jpg",
         alt:"Botanical 1"
     },
     {
-        image:"../images/GV_30.jpg",
+        image:"../images/D_8.jpg",
         alt:"Botanical 2"
     },
     {
@@ -24,12 +24,8 @@ const SliderIndoorData = [
         alt:"Botanical 6"
     },
     {
-        image:"../images/Sunday.jpg",
-        alt:"Botanical 7"
-    },
-    {
         image:"../images/Sunday_5.jpg",
-        alt:"Botanical 8"
+        alt:"Botanical 7"
     }
 ]
 

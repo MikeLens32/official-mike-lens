@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from 'react'
-import './HomeCommentary.css'
+// import './HomeCommentary.css'
 import HomeCommentsList from './HomeCommentsList'
 import HomeForm from './HomeForm'
 

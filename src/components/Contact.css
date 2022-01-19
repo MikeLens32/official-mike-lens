@@ -1,12 +1,13 @@
 .Mike-Lens {
     height: 15vh;
     margin-top: 5vh;
+    margin-left: 15vh;
 }
 
 .Form {
     margin-bottom: 10vh;
-    justify-content: center;
     margin-left: 15vh;
+    justify-content: center;
 }
 
 

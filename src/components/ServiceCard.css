@@ -4,6 +4,7 @@
     margin: 2em;
     box-shadow: 0, 2px, 20px, red;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .Card-Container:hover {
@@ -11,9 +12,12 @@
     transition-duration: 1.2s;
 }
 
-.Image-Conatainer {
+.Image-Container img{
     overflow: hidden;
-    
+    justify-content: center;
+    align-content: center;
+    width: 25rem;
+    height: 39rem;
 }
 
 .Service-Title {
