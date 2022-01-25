@@ -1,4 +1,4 @@
-import "./NavBar.css"
+import ".//CSS/NavBar.css"
 import Home from "./Home";
 import About from "./About";
 import Bookings from "./Bookings";
@@ -16,7 +16,7 @@ function NavBar() {
             <Navbar bg="dark" variant="dark">
             <Container>
             <Navbar.Brand path="/">
-              <img className="ML" src={image}/>
+              <img className="ML" src={image} alt="Mike_Lens"/>
             </Navbar.Brand>
                 <Nav className="me-auto">
                 <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
@@ -43,30 +43,6 @@ function NavBar() {
         </Route>
       </Switch>
         </div>
-           {/* <NavLink 
-           exact to="/"
-           style={style}
-           >
-               Home
-           </NavLink>
-           <NavLink 
-           to="/About"
-           style={style}
-           >
-               About
-           </NavLink>
-           <NavLink 
-           to="/Bookings"
-           style={style}
-           >
-               Bookings
-           </NavLink>
-           <NavLink 
-           to="/Contact"
-           style={style}
-           >
-               Contact
-           </NavLink> */}
         </Router>
     )
 }

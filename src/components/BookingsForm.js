@@ -77,13 +77,8 @@ const BookingsForm = () => {
                 <option value="Docu-series">Docu-series</option>
                 <option value="Vloging">Vloging</option>
             </select>
-            {/* <input 
-            required type="text"
-            value={bookingData.service}
-            /> */}
             <br/>
             <label>Budget</label>
-            {/* Create a section for possible date of event/service request */}
             <input 
             name={"budget" || bookingData.budget}
             type="number" 

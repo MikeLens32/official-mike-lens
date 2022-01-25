@@ -1,4 +1,4 @@
-import "./ServiceCard.css"
+import ".//CSS/ServiceCard.css"
 
 const ServiceCard = ({ media:{service, description, image, alt}}) => {
 

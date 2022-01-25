@@ -11,7 +11,6 @@ function PhotoCategories() {
     return(
         <div>
             <ImageSliderOutDoor outdoor={outdoor}/>
-            {/* Passed in outdoor as a prop for a variable to use length function for the array number of images */}
             <ImageSliderIndoor indoor={SliderIndoorData}/>
             <ImageSliderBotanical botanical={SliderBotanicalData}/>
             <ImageSliderCentral central={SliderCentralData}/>

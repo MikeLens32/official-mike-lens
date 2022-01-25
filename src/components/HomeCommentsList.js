@@ -1,5 +1,5 @@
 import React from 'react'
-import "./HomeCommentList.css"
+import ".//CSS/HomeCommentList.css"
 
 const HomeCommentsList = ({ commentary=[] }) => {
 

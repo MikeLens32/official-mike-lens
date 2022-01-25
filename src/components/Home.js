@@ -1,6 +1,6 @@
 import React from "react";
-import "./Home.css";
-import './HomeCommentary.css';
+import ".//CSS/Home.css";
+import './/CSS/HomeCommentary.css';
 import PhotoCategories from './PhotoCategories';
 import HomeContainer from './HomeContainer';
 

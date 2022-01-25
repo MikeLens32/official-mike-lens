@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import "./HomeForm.css"
+import ".//CSS/HomeForm.css"
 
 const HomeForm = ({ setComment }) => {
 
@@ -14,10 +14,7 @@ const HomeForm = ({ setComment }) => {
             ...homeCom, 
             [e.target.id]:e.target.value,
         })
-        console.log(homeCom);
     }
-    // console.log(handleChange)
-
 
     function handleSubmit(e) {
         e.preventDefault();
@@ -42,11 +39,6 @@ const HomeForm = ({ setComment }) => {
                 category: "",
                 comment: ""
             })
-        // }, []
-        // )
-        // console.log(homeData)
-        // continously had an issue with defining the information I need before even getting to the fetch request
-
     }
 
     return (

@@ -1,4 +1,4 @@
-import "./Bookings.css"
+import ".//CSS/Bookings.css"
 import Services from "./Services";
 import BookingsForm from "./BookingsForm";
 import { Photography, Videography } from './ServiceCategories'

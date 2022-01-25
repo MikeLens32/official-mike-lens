@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import Mike from "../MIKELENS.png";
-import "./Contact.css"
+import ".//CSS/Contact.css"
 
 function Contact() {
 
@@ -42,7 +42,7 @@ function Contact() {
             <h1>
                 Contact
             </h1>
-            <img className="Mike-Lens" src={Mike} atl="Mike-Lens"/> 
+            <img className="Mike-Lens" src={Mike} alt="Mike-Lens"/> 
             <form className="Form" ref={form} onSubmit={sendEmail}>
             <label>Full Name</label>
             <input 
